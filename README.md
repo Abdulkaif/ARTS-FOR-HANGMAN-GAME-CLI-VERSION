@@ -7,7 +7,6 @@ This is a simple Hangman game implemented in Python. The game displays a series 
 
 The game logo is displayed as follows:
 
-**
 _                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
@@ -16,13 +15,11 @@ _
 |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                     __/ |                      
                     |___/
-**
 
 ### Game Over Art
 
 In case the player loses the game, the following game over art is displayed:
 
-**
 ┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼
 ███▀▀▀██┼███▀▀▀███┼███▀█▄█▀███┼██▀▀▀
 ██┼┼┼┼██┼██┼┼┼┼┼██┼██┼┼┼█┼┼┼██┼██┼┼┼
@@ -36,15 +33,13 @@ In case the player loses the game, the following game over art is displayed:
 ██┼┼┼┼┼██┼┼┼██┼┼█▀┼┼██┼┼┼┼██┼┼┼┼┼██┼
 ███▄▄▄███┼┼┼─▀█▀┼┼─┼██▄▄▄┼██┼┼┼┼┼██▄
 
-**
-
 
 ### Stages of the Hangman
 
 The stages of the Hangman are displayed as ASCII art and represent the progression of the game as incorrect guesses are made. The stages are as follows:
 
-** 1 **
-** 
+**1**
+
 +---+
   |   |
       |
@@ -53,9 +48,9 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
 =========
 
-**
 
-** 2 **
+
+**2**
 
   +---+
   |   |
@@ -120,11 +115,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
 =========
 
 
-###Trophy Art
+### Trophy Art
 
 Upon successfully guessing the word, the following trophy art is displayed:
 
-**              .-=========-.
+              .-=========-.
               \'-=======-'/
               _|   .=.   |_
              ((|  {{1}}  |))
@@ -133,7 +128,7 @@ Upon successfully guessing the word, the following trophy art is displayed:
                  _`) (`_
                _/_______\_
               /___________\
-**
+
 
 Feel free to use and modify the code as you like! Have fun playing Hangman!
 
