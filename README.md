@@ -1,13 +1,14 @@
-#Hangman Game
+# Hangman Game
 
 This is a simple Hangman game implemented in Python. The game displays a series of dashes representing a word to be guessed, and the player must guess individual letters to uncover the word before running out of attempts.
 
 
-###Game Logo
+### Game Logo
 
 The game logo is displayed as follows:
 
-**_                                             
+**
+_                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
 | '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
@@ -17,11 +18,12 @@ The game logo is displayed as follows:
                     |___/
 **
 
-###Game Over Art
+### Game Over Art
 
 In case the player loses the game, the following game over art is displayed:
 
-**┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼
+**
+┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼
 ███▀▀▀██┼███▀▀▀███┼███▀█▄█▀███┼██▀▀▀
 ██┼┼┼┼██┼██┼┼┼┼┼██┼██┼┼┼█┼┼┼██┼██┼┼┼
 ██┼┼┼▄▄▄┼██▄▄▄▄▄██┼██┼┼┼▀┼┼┼██┼██▀▀▀
@@ -37,21 +39,23 @@ In case the player loses the game, the following game over art is displayed:
 **
 
 
-###Stages of the Hangman
+### Stages of the Hangman
 
 The stages of the Hangman are displayed as ASCII art and represent the progression of the game as incorrect guesses are made. The stages are as follows:
 
-**1**
-**  +---+
+** 1 **
+** 
++---+
   |   |
       |
       |
       |
       |
 =========
+
 **
 
-**2**
+** 2 **
 
   +---+
   |   |
