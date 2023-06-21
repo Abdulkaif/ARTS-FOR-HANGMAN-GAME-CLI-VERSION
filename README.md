@@ -106,6 +106,7 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
 
 **7**
 
+```
   +---+
   |   |
   O   |
@@ -113,12 +114,13 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
  / \  |
       |
 =========
-
+```
 
 ### Trophy Art
 
 Upon successfully guessing the word, the following trophy art is displayed:
 
+```
               .-=========-.
               \'-=======-'/
               _|   .=.   |_
@@ -129,6 +131,7 @@ Upon successfully guessing the word, the following trophy art is displayed:
                _/_______\_
               /___________\
 
+```
 
 Feel free to use and modify the code as you like! Have fun playing Hangman!
 
