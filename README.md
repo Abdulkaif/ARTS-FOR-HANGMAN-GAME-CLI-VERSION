@@ -7,6 +7,7 @@ This is a simple Hangman game implemented in Python. The game displays a series 
 
 The game logo is displayed as follows:
 
+```
 _                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
@@ -16,10 +17,13 @@ _
                     __/ |                      
                     |___/
 
+```
+
 ### Game Over Art
 
 In case the player loses the game, the following game over art is displayed:
 
+```
 ┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼
 ███▀▀▀██┼███▀▀▀███┼███▀█▄█▀███┼██▀▀▀
 ██┼┼┼┼██┼██┼┼┼┼┼██┼██┼┼┼█┼┼┼██┼██┼┼┼
@@ -33,6 +37,7 @@ In case the player loses the game, the following game over art is displayed:
 ██┼┼┼┼┼██┼┼┼██┼┼█▀┼┼██┼┼┼┼██┼┼┼┼┼██┼
 ███▄▄▄███┼┼┼─▀█▀┼┼─┼██▄▄▄┼██┼┼┼┼┼██▄
 
+```
 
 ### Stages of the Hangman
 
@@ -40,6 +45,7 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
 
 **1**
 
+```
 +---+
   |   |
       |
@@ -48,10 +54,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
 =========
 
-
+```
 
 **2**
 
+```
   +---+
   |   |
   O   |
@@ -60,9 +67,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
 =========
 
+```
 
 **3**
 
+```
   +---+
   |   |
   O   |
@@ -70,10 +79,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
       |
 =========
-
+```
 
 **4**
 
+```
   +---+
   |   |
   O   |
@@ -82,8 +92,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
 =========
 
+```
 
 **5**
+
+```
 
   +---+
   |   |
@@ -93,8 +106,11 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
       |
 =========
 
+```
 
 **6**
+
+```
 
   +---+
   |   |
@@ -103,6 +119,8 @@ The stages of the Hangman are displayed as ASCII art and represent the progressi
  /    |
       |
 =========
+
+```
 
 **7**
 
